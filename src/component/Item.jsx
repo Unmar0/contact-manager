@@ -1,6 +1,8 @@
 import './Item.css'
 
 function ContactItem({ number, contact, onDeleteContact }) {
+  const handleDelete = onDeleteContact.bind(null, contact.email)
+
   return (
     <li className="contact-item">
       <div className="contact-details">
@@ -10,7 +12,7 @@ function ContactItem({ number, contact, onDeleteContact }) {
         <p>{contact.email}</p>
       </div>
 
-      <button type="button" onClick={() => onDeleteContact(contact.email)}>
+      <button type="button" onClick={handleDelete}>
         Delete
       </button>
     </li>
