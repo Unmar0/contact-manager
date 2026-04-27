@@ -1,0 +1,29 @@
+.contact-item {
+  border: 1px solid #dbe2ea;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  background: #f8fbff;
+}
+
+.contact-details p {
+  margin: 0;
+  line-height: 1.5;
+  color: #1f2937;
+}
+
+.contact-item button {
+  border: none;
+  border-radius: 6px;
+  background: #dc3545;
+  color: #fff;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.contact-item button:hover {
+  background: #bb2d3b;
+}

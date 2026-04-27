@@ -1,0 +1,20 @@
+.contact-list-section {
+  margin-top: 10px;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-message {
+  padding: 14px;
+  border: 1px dashed #cfd4dc;
+  border-radius: 6px;
+  color: #5f6672;
+  margin: 0;
+}
